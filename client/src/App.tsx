@@ -8,10 +8,12 @@ import Generate from "./pages/Generate";
 import MyGeneration from "./pages/MyGeneration";
 import YtPreview from "./pages/YtPreview";
 import Login from "./components/Login";
+import {Toaster} from 'react-hot-toast'
 
 export default function App() {
     return (
         <>
+            <Toaster />
             <LenisScroll />
             <Navbar />
             <Routes>
